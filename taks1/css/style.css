@@ -33,6 +33,22 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.intro__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
 /* Header */
 .header {
     width: 100%;
