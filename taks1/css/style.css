@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Container */
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -36,7 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 .header {
     width: 100%;
-    padding-top: 35px;
+    background-color: #333;
+    box-shadow: rgba(95, 42, 240, 0.685) 10px 15px 30px;
+    padding: 10px 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -45,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__inner {
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
