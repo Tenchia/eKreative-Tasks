@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Intro */
 .intro {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +40,15 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../src/blitzkrye-studio-background.jpg) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+.gradient {
+    background-image: linear-gradient(360deg, #333 0%, rgba(43, 3, 3, 0) 30%);
+    position: absolute;
+    left: 0px;
+    bottom: 0vw;
+    width: 100%;
+    height: 47vw;
 }
 
 .intro__suptitle {
@@ -59,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
+    z-index: 10000;
     text-transform: uppercase;
     font-size: 3vh;
     margin: 0 calc(35%);
@@ -97,10 +108,20 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+.header__home {
+    text-decoration: none;
+    color: #fff;
+    transition: color .2s linear;
+}
+
+.header__home:hover {
+    color: goldenrod;
+}
+
 .header__logo {
     font-family: 'League Spartan', sans-serif;
     margin-top: 1vh;
-    font-size: 4vw;
+    font-size: 3vw;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
