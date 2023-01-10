@@ -161,6 +161,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 2vh 3vw;
 }
 
+
+
+.about__suptitle {
+    z-index: 10001;
+    color: goldenrod;
+}
+
+.about__title {
+    z-index: 10000;
+    color: goldenrod;
+}
+
 .about__text {
     z-index: 10000;
     color: #fff;
