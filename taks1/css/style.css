@@ -198,3 +198,52 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 10000;
     color: #fff;
 }
+
+/* Socials */
+.socials {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../src/backsocial_YUAN2.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.socials__inner {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 2vw;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 5vh;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.socials__link:hover {
+    color: #daa520;
+}
+
+.socials__icon {
+    size: 4vh;
+}
+
+.socials__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
