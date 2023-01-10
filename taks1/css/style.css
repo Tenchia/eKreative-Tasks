@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .intro__inner {
@@ -57,8 +58,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: calc(16%);
 }
 
-.intro__logo {
-    
+.btn {
+    text-transform: uppercase;
+    font-size: 3vh;
+    margin: 0 calc(35%);
+    padding-top: 0.3vh;
+    border-radius: .3vw;
+    text-decoration: none;
+    color: #333;
+    background: goldenrod;
+    text-align: center;
+    transition:color, background .2s linear;
+}
+
+.btn:hover {
+    color: goldenrod;
+    background: #333;
 }
 
 /* Header */
@@ -132,4 +147,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__link:hover {
     color:goldenrod;
+}
+
+/* About */
+.about {
+    display: flex;
+    background-color: #333;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.about__inner {
+    padding: 2vh 3vw;
+}
+
+.about__text {
+    z-index: 10000;
+    color: #fff;
 }
