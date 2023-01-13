@@ -2,6 +2,10 @@ import React from 'react';
 import Navbar from './modules/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
+import Home from './modules/pages/Home';
+import Socials from './modules/pages/Socials';
+import About from './modules/pages/About'
+import SignUp from './modules/pages/SignUp';
 
 function App() {
   return (
@@ -9,7 +13,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact />
+        <Route path='/' element={<Home/>} />
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Socials' element={<Socials/>}/>
+        <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
     </Router>
     </>
