@@ -7,7 +7,6 @@ function Socials() {
   return (
     <>
     <h1 className='socials'>SOCIALS</h1>
-    <Footer />
     </>
   )
 }
