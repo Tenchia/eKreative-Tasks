@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import 'config';
+
+/**** Nav ****/
+.top-nav {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $nav-height;
+  padding: 0 1.25rem;
+  @include respond-to-screen(mobile) {
+    padding: 0 0.3rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  button {
+    font-family: 'Barlow', sans-serif;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border: 1px solid #eee;
+    border-width: 0 0 1px 0;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+
+  button:focus {
+    outline: blue thin dotted;
+  }
+
+  button > span {
+    pointer-events: none;
+  }
+
+  .copy-bar {
+    position: relative;
+    width: 16.9rem;
+    @include respond-to-screen(mobile) {
+      width: 15.9rem;
+    }
+    > button {
+      background-color: #000;
+      color: #fff;
+      border: 0;
+      border-radius: 0.2rem;
+      width: 100%;
+    }
+    .triangle {
+      margin-left: 1rem;
+    }
+  }
+
+  .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150%;
+    z-index: 2;
+    transition: 0.5s;
+    button {
+      width: 100%;
+    }
+    li:first-of-type button {
+      border-radius: 0.3rem 0.3rem 0 0;
+    }
+    li:last-of-type button {
+      border: 0;
+      border-radius: 0 0 0.3rem 0.3rem;
+    }
+    li button:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  .submenu-show {
+    display: block;
+    button {
+      display: block;
+    }
+  }
+
+  .sound-btn {
+    width: 6.5rem;
+    border: 0;
+    transition: 0.1s;
+    @include respond-to-screen(mobile) {
+      width: 1rem !important;
+    }
+  }
+
+  .main-btn:active,
+  .sound-btn:active {
+    transform: scale(0.98);
+  }
+
+  .sound-text {
+    @include respond-to-screen(mobile) {
+      display: none;
+    }
+  }
+}

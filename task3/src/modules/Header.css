@@ -1,0 +1,17 @@
+.header-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem 0 2rem;
+    height: 70px;
+    width: 100%;
+}
+
+.header-container .logo {
+    position: absolute;
+    left: 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
