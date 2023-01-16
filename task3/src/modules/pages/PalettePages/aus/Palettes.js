@@ -1,6 +1,6 @@
-import Grid from '../../Grid'
+import Grid from '../../../Grid'
 import { colors } from './colors'
-import '../../../assets/scss/palettes.scss'
+import '../../../../assets/scss/palettes.scss'
 
 export default function Palettes() {
   return (

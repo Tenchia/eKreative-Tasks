@@ -10,10 +10,10 @@ function SmallPalettes() {
             <SmallPalette name="Russian Palette" link="/palette-rus" col1='#f3a683' col2='#f7d794' col3='#778beb' col4='#e77f67' col5='#cf6a87' col6='#f19066' col7='#f5cd79' col8='#546de5' col9='#e15f41'/>
         </div>
         <div className="small-palette">
-            <SmallPalette name="Aussie Palette" link="/" col1='#f6e58d' col2='#ffbe76' col3='#ff7979' col4='#badc58' col5='#dff9fb' col6='#f9ca24' col7='#f0932b' col8='#eb4d4b' col9='#6ab04c'/>
+            <SmallPalette name="Aussie Palette" link="/palette-aus" col1='#f6e58d' col2='#ffbe76' col3='#ff7979' col4='#badc58' col5='#dff9fb' col6='#f9ca24' col7='#f0932b' col8='#eb4d4b' col9='#6ab04c'/>
         </div>
         <div className="small-palette">
-            <SmallPalette name="Canadian Palette" link="/" col1='#ff9ff3' col2='#feca57' col3='#ff6b6b' col4='"#48dbfb' col5='#1dd1a1' col6='#f368e0' col7='#ff9f43' col8='#ee5253' col9='#0abde3'/>
+            <SmallPalette name="Canadian Palette" link="/palette-ca" col1='#ff9ff3' col2='#feca57' col3='#ff6b6b' col4='"#48dbfb' col5='#1dd1a1' col6='#f368e0' col7='#ff9f43' col8='#ee5253' col9='#0abde3'/>
         </div>        
     </div>
     <div className="small-palettes">

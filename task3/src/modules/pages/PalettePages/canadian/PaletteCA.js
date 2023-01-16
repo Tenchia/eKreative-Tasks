@@ -1,13 +1,12 @@
 import React from 'react'
 
-import Header from '../../Header'
+import Header from '../../../Header'
 import Palettes from './Palettes'
-import Success from '../../Success'
-import { useGlobalContext } from '../../../context'
+import Success from '../../../Success'
+import { useGlobalContext } from '../../../../context'
 
-function PaletteRus() {
-  const { setHasShownSubmenu, color } = useGlobalContext()
-
+function PaletteCA() {
+    const { setHasShownSubmenu, color } = useGlobalContext()
   return (
     <div
       onClick={(event) => {
@@ -21,4 +20,4 @@ function PaletteRus() {
   )
 }
 
-export default PaletteRus
+export default PaletteCA
